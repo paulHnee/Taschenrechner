@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt-Startseite</title>
+    <link rel="stylesheet" href="sytle.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        .frontpage-container {
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+            padding: 2.5rem 3rem 2.5rem 3rem;
+            max-width: 400px;
+            width: 100%;
+            margin: 2rem auto;
+            text-align: center;
+        }
+        .frontpage-container h1 {
+            margin-bottom: 2rem;
+            color: #3b3b3b;
+            font-size: 2rem;
+        }
+        .project-links {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+        .project-link {
+            display: block;
+            padding: 1rem;
+            border-radius: 10px;
+            background: #e0e7ff;
+            color: #222;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 500;
+            transition: background 0.2s, color 0.2s;
+            box-shadow: 0 2px 8px rgba(31, 38, 135, 0.07);
+        }
+        .project-link:hover {
+            background: #6366f1;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="frontpage-container">
+        <h1>Willkommen! Wähle ein Taschenrechner Projekt:</h1>
+        <div class="project-links">
+            <a class="project-link" href="marvin/index.html">Marvin</a>
+            <a class="project-link" href="paul/index.html">Paul</a>
+            <a class="project-link" href="tobi/index.html">Tobi</a>
+        </div>
+    </div>
+</body>
+</html>

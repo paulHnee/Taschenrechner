@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytle.css">
+    <title>Taschenrechner Paul</title>
+</head>
+<body>
+        <div class="calc-container"> <!-- Container für Taschenrechner-Layout -->
+        <h2>Taschenrechner FSV41 Paul B</h2> <!-- Überschrift -->
+        <form>
+        <!-- Formular, übermittelt Benutzereingaben an den Server -->
+
+            <input type="text" name="expression" class="display" placeholder="Rechnung eingeben..." readonly>
+            <!-- Eingabefeld für mathematische Ausdrücke -->
+            <table> <!-- Tabelle zur Anordnung der Tasten -->
+                <tr>
+                    <td><input type="button" value="7"></td>
+                    <td><input type="button" value="8"></td>
+                    <td><input type="button" value="9"></td>
+                    <td><input type="button" value="/"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4"></td>
+                    <td><input type="button" value="5"></td>
+                    <td><input type="button" value="6"></td>
+                    <td><input type="button" value="*"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1"></td>
+                    <td><input type="button" value="2"></td>
+                    <td><input type="button" value="3"></td>
+                    <td><input type="button" value="-"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="0"></td>
+                    <td><input type="button" value="."></td>
+                    <td><input type="button" value="+"></td>
+                </tr>
+                <tr>                
+                    <td colspan="2"><input type="reset" value="CL"></td>
+                    <!-- Taste zum Löschen des Eingabefelds (Clear) -->
+                    <td colspan="2"><input type="button" value="=" class="equals"></td>
+                    <!-- Taste zum Berechnen des Ausdrucks -->
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
