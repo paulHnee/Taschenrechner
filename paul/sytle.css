@@ -48,7 +48,7 @@ body::before {
 	left: -2px;
 	right: -2px;
 	bottom: -2px;
-	background: linear-gradient(45deg, #00ff88, #0088ff, #8800ff, #ff0088, #00ff88);
+	background: #0088ff;
 	border-radius: 20px;
 	z-index: -1;
 	animation: borderGlow 3s linear infinite;
